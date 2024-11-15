@@ -1,0 +1,15 @@
+[package]
+name = "Simple_dice_roll _game _on-chain"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0x8d3ec9605ec0d46f095f779406010eb650284c1cac5f5698d008879215b74643'
+[dev-addresses]
+
+[dependencies.AptosFramework]   
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
